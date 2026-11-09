@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encuesta</title>
+	<meta charset="utf-8"/>
+</head>
+    <body>
+        <h1>Iniciar encuesta</h1>
+        <form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="POST">
+            <fieldset>
+                <legend>Datos Académicos</legend>
+                    <label for="nombre">Nombre y apellidos:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="ciclo">Ciclo formativo:</label>
+                <select name="ciclo" id="ciclo">
+                    <option value="DAM">DAM</option>
+                    <option value="DAW">DAW</option>
+                    <option value="ASIR">ASIR</option>
+                </select><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Preferencias Técnicas</legend>
+                <input type="radio" id="java" name="lenguaje" value="Java">
+                <label for="java">Java</label><br>
+                <input type="radio" id="Python" name="lenguaje" value="Python">
+                <label for="Python">Python</label><br>
+                <input type="radio" id="C#" name="lenguaje" value="C#">
+                <label for="C#">C#</label><br>
+                <input type="radio" id="JavaScript" name="lenguaje" value="JavaScript">
+                <label for="JavaScript">JavaScript</label><br>
+
+
+                <input type="checkbox" id="linux" name="entornos" value="Linux">
+                <label for="linux">Linux</label>
+                <input type="checkbox" id="windows" name="entornos" value="Windows">
+                <label for="windows">Windows</label>
+                <input type="checkbox" id="macos" name="entornos" value="macOS">
+                <label for="macos">macOS</label>
+               <br><label for="comentarios">Comentarios / Experiencia previa:</label></br>
+                <br><textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+
+
+            </fieldset>
+            <br><button type="submit">Enviar encuesta</button>
+            <br><button type="reset">Borrar formulario</button>
+        </form>
+    </body>
+</html>
+
+
+
