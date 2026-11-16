@@ -19,12 +19,13 @@
                          <label for="web">Sitio web:</label>
                          <input type="url" id="web" name="web"><br><br>
                          <label for="ide">IDE preferido:</label>
-                         <select name="ide" id="ide">
-                             <option value="Visual Studio">Visual Studio</option>
-                             <option value="Eclipse">Eclipse</option>
-                             <option value="Android Studio">Android Studio</option>
-                             <option value="IntelliJ IDEA">IntelliJ IDEA</option>
-                            </select><br><br>
+                         <input type="text" id="ide" name="ide" list="ide-options">
+                         <datalist id="ide-options">
+                             <option value="Visual Studio">
+                             <option value="Eclipse">
+                             <option value="Android Studio">
+                             <option value="IntelliJ IDEA">
+                         </datalist><br><br>
                             <label for="politica">Acepto la política de privacidad:</label>
                             <input type="checkbox" id="politica" name="politica" required><br><br>
                             <input type="submit" value="Registrar">
