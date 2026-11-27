@@ -1,0 +1,32 @@
+h1{
+
+background-color: blue;
+
+
+}
+h2{
+
+    background-color: red;
+     color: rgba(0,0,0,0.4);
+}
+p{
+
+
+     font-family: Verdana, Helvetica, sans-serif;
+
+     font-size: 1.15em; 
+
+     font-weight: bold; text-align: center;
+}
+ul{
+
+
+    font-style: italic;
+    text-shadow: 2px,2px,2px rgb(255, 0, 0);
+    text-shadow: 2px 2px 5px rgb(204, 30, 7); 
+
+}
+ol{
+ text-shadow: 2px 2px 5px darkblue; 
+
+}
